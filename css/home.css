@@ -1,0 +1,75 @@
+body {
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+    color: white;
+}
+#name {
+    color: rgba(254, 203, 0, 0.928);
+    font-size: 500%;
+}
+
+#description {
+    /* color: white; */
+    font-size: 250%;
+
+}
+#username-label {
+    font-size: 200%;
+
+}
+#username {
+    margin: 15px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    background-color: rgba(0, 0, 0, .5);
+    color:white;
+    font-size: 150%;
+
+}
+
+#password-label{
+    font-size: 200%;
+
+}
+#password {
+    margin: 15px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    background-color: rgba(0, 0, 0, .5);
+    color:white;
+    font-size: 150%;
+}
+#login{
+    background-color: rgba(0, 0, 0, .1);
+    color:rgba(255, 255, 255, .9);
+    padding: .5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 100%;
+    transition: 500ms;
+    border: 2px solid;
+    border-radius: 50px;
+    /* text-decoration: none; */
+}
+
+#login:hover {
+    background-color: rgba(255, 255, 255, .9);
+    color: black;
+    border: 2px solid black;
+    animation-duration: 500ms;
+    /* animation: 300ms forwards; */
+}
+
+#login:active{
+    transition: 200ms;
+    border: 2px solid yellow;
+    background-color: rgba(0, 0, 0  , .1);
+    color:rgba(255, 255, 255, .9);
+}
+
+#register {
+    color: rgba(255, 255, 255, .9)
+}
+#register:active {
+    color: rgba(255, 255, 0, .9)
+}
